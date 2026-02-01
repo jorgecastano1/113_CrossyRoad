@@ -1,0 +1,8 @@
+I was having a lot of issues working with pygame and getting the game to
+properly show up in an HTML. Instead I opted to have the whole file in a single
+HTML File. My prompt history with DeepSeek is below.
+
+
+When specific environment details are not fully constrained, getting working
+versions from prompts becomes increasingly difficult.
+
