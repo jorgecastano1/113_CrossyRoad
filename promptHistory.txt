@@ -1,10 +1,14 @@
+My overarching strategy to accomplish this was to get a working python file and
+then allow it to be accessed through an HTML site. Working with libraries such
+as pygame proved to be difficult as there were compatibility issues that had to
+be translated back and forth through prompts.
+
 I was having a lot of issues working with pygame and getting the game to
 properly show up in an HTML. Instead I opted to have the whole file in a single
 HTML File. My prompt history with DeepSeek is below.
 
-
 When specific environment details are not fully constrained, getting working
-versions from prompts becomes increasingly difficult.
+versions from prompts became increasingly difficult.
 
 
 Prompt History:
