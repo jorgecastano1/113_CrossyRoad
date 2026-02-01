@@ -6,3 +6,123 @@ HTML File. My prompt history with DeepSeek is below.
 When specific environment details are not fully constrained, getting working
 versions from prompts becomes increasingly difficult.
 
+
+Prompt History:
+--------------------------------------------------------------------------------
+Initial Request:
+Can you make a python version of crossy road in a python file ? I want to be able to put this on a personal website for people that visit it to play
+
+Follow-up about Deployment:
+I have the python file in a file. How can I get this to run on an html website ?
+
+Pygbag Installation Issue:
+i installed pygbag using pip3 and when I try to run pygbag --build --template index.html crossyRoad.py it says that pygbag does not exist
+
+Pygbag Path Issue:
+it finds that pygbag exists, but when I run a command it does not recognize pygbag
+
+Successful Build, but Web Deployment Issues:
+I successfully built the game. Now how do I get this to show up on a html file accessed locally or through github pages
+
+Game Not Loading on Localhost:
+I was able to load it through localhost. I find that when I load it it says loading game please wait, I have not yet seen the actual game
+
+GitHub Pages Issue:
+Great. I was able to get my github repository updated. The actual game itself is not loading. Is this an issue with the actual python file ? What can we do to fix it
+
+Repository Link:
+This is the github repo url. jorgecastano1.github.io/113_CrossyRoad. It is still not working
+
+Missing Build Files:
+in build/web all that is there is an apk file a png and an index.html.
+
+Pygbag Build Issue:
+When I run the bash command to build using pygbag it produces the exact same files.
+
+Clarification on Build Folder:
+is __target__ supposed to be the web folder
+
+Pygbag Error Output:
+*pygbag 0.9.2*
+Serving python files from [/Users/jorgecastano/15113/repos/113_CrossyRoad/build/web]
+with no security/performance in mind, i'm just a test tool : don't rely on me
+SUMMARY
+________________________
+# the app folder
+app_folder=/Users/jorgecastano/15113/repos/113_CrossyRoad
+# artefacts directory
+build_dir=/Users/jorgecastano/15113/repos/113_CrossyRoad/build/web
+# cache directory
+cache=/Users/jorgecastano/15113/repos/113_CrossyRoad/build/web-cache
+# the window title and icon name
+app_name=113_crossyroad
+# package name, better make it unique
+package=web.pygame.113_CrossyRoad-1769905623
+# icons:  96x96 for desktop, 16x16 for web
+icon=favicon.png
+# js/wasm provider
+cdn=https://pygame-web.github.io/archives/0.9/
+now packing application ....
+Now in /
+     /prompts.txt
+     /crossyRoad.py
+     /index.html
+	/Users/jorgecastano/15113/repos/113_CrossyRoad : prompts.txt
+	/Users/jorgecastano/15113/repos/113_CrossyRoad : crossyRoad.py
+	/Users/jorgecastano/15113/repos/113_CrossyRoad : index.html
+packing 3 files complete
+    caching template https://pygame-web.github.io/archives/0.9/default
+    cached locally at /Users/jorgecastano/15113/repos/113_CrossyRoad/build/web-cache/adeafc6bc2722e99d28c4c02de35f103.tmpl
+    result files will be in /Users/jorgecastano/15113/repos/113_CrossyRoad/build/web
+urllib.request.urlretrieve("https://pygame-web.github.io/archives/0.9/default", "/Users/jorgecastano/15113/repos/113_CrossyRoad/build/web-cache/adeafc6bc2722e99d28c4c02de35f103.tmpl")
+WARNING: web.get(https://pygame-web.github.io/archives/0.9/default) : HTTP Error 404: Not Found
+retrying in 5 seconds
+WARNING: web.get(https://pygame-web.github.io/archives/0.9/default) : HTTP Error 404: Not Found
+^CNO DATA RECEIVED FOR https://pygame-web.github.io/archives/0.9/default
+cannot cache https://pygame-web.github.io/archives/0.9/default to /Users/jorgecastano/15113/repos/113_CrossyRoad/build/web-cache/adeafc6bc2722e99d28c4c02de35f103.tmpl
+CDN https://pygame-web.github.io/archives/0.9/ is not responding : not running test server
+    using icon from local cached file https://pygame-web.github.io/archives/0.9/favicon.png
+    cached at /Users/jorgecastano/15113/repos/113_CrossyRoad/build/web-cache/38e02d124325c756243ee99a92e528ed.png
+default is not a valid template
+
+Request for Simpler Method:
+is there a simpler way to do this with the python file we have
+
+Affirmative Response:
+yes
+
+Request for Step-by-Step File List:
+I have the new repository. Make a list of the files I need to make and what I need to populate them with step by step.
+
+Request for Python File:
+I am at step 4, can you provide the python file.
+
+Pygbag Syntax Error:
+jorgecastano@Jorges-MBP-4 113_CrossyRoad % python3 -m pygbag --build --archive https://pygame-web.github.io/archives/0.8/ crossyRoad.py
+ *pygbag 0.9.2*
+Serving python files from [/Users/jorgecastano/15113/repos/113_CrossyRoad/build/web]
+with no security/performance in mind, i'm just a test tool : don't rely on me
+usage: __main__.py [-h] [--bind ADDRESS] [--PYBUILD PYBUILD] [--width WIDTH]
+                   [--height HEIGHT] [--COLUMNS COLUMNS] [--LINES LINES]
+                   [--CONSOLE CONSOLE] [--app_name APP_NAME]
+                   [--ume_block UME_BLOCK] [--can_close CAN_CLOSE]
+                   [--cache CACHE] [--package PACKAGE] [--title TITLE]
+                   [--version VERSION] [--build] [--html] [--no_opt]
+                   [--archive] [--icon ICON] [--cdn CDN] [--template TEMPLATE]
+                   [--ssl SSL] [--port [PORT]]
+__main__.py: error: unrecognized arguments: https://pygame-web.github.io/archives/0.8/
+
+Request for Simpler Method Confirmation:
+is there a simpler way to do this with the python file we have
+
+Question about .nojekyll:
+shy do we need the nojekyll file
+
+Question about Filename:
+should I rename the html file to index so that it can open
+
+Request for Prompt History:
+Can you provide me with a txt file with all of the prompts I have provided you regarding this game
+
+Request for Code Block:
+can you put this prompt history in a code blocl
